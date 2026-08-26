@@ -37,14 +37,6 @@ A desktop tool for turning measurement data from Excel files into clean, publica
 
 The output PDF is saved in the same folder as the source Excel file, with `_Diagramm` appended to the filename.
 
-## Project Structure in app/
-├── main.py # Application entry point
-├── gui.py # Tkinter UI and user interaction logic
-├── plotting.py # Chart generation (matplotlib) and PDF export
-├── utils.py # Helper functions (date parsing, tick intervals, resource paths)
-├── ToolTip.py # Reusable tooltip widget for the UI
-└── resources/ # Icons and logo images
-
 ## Building a Standalone Executable
 
 The app can be packaged into a single Windows `.exe` using [PyInstaller](https://pyinstaller.org/):
